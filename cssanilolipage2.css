@@ -1,0 +1,64 @@
+/* -- Blogger Comments Arlina Deszign -- */
+#comments{position:relative;padding:15px;}
+#comments h3{font-size:24px}
+#comments .click-comment{position:absolute;right:20px;top:20px;font-size:14px;color:#999;padding:5px 10px;border:1px solid #ddd;margin:0 0 10px}
+#comments .click-comment:hover{border-color:#ff6d5e;color:#e24131;}
+#comment_block{margin:40px 0 0 0;}
+.comment_avatar_wrap{display:inline-block;float:left;width:48px;height:48px;border:none;background:none;padding:0;overflow:hidden}
+#comments .comment_avatar,#comments .comment_admin .comment_avatar {display:inline-block;width:48px;height:48px;float:left}
+#comments .comment_avatar img,.comment_avatar img {width:48px;height:48px;background:url(https://2.bp.blogspot.com/-uVc9DMSVxVY/VmzyqkBzLuI/AAAAAAAABkU/qe64VQiWHG4/s000/avatwisted.png)no-repeat;overflow:hidden}
+.comment_name a,.comment_child .comment_name a{font-size:16px;font-weight:700;}
+.comment_name a:hover,.comment_child .comment_name a:hover{color:#454545;}
+.comment_admin .comment_name,.comment_name{display:inline-block;line-height:48px;font-size:16px}
+.comment_service{position:relative}
+.item-control {display:block;}
+.comment_date{float:right;line-height:48px}
+.comment_date a{font-size:80%}
+.comment_date a:hover{color:#E09711;}
+.comment-delete{position:absolute;display:inline-block;top:-2px;right:50px;
+color:#666!important;text-align:center;font-size:11px;padding:2px 6px;opacity:0.9;transition:all .3s ease-out;}
+.comment-delete:hover{color:#f53b3b!important;}
+.unneeded-paging-control,.comment_author_flag{display:none}
+.comment_admin .comment_author_flag{display: inline-block;font-size: 12px;font-weight: 400;text-transform: uppercase;padding: 3px 5px;color: #FFF;background: #333;text-align: center;line-height: normal;margin-left: 5px;}
+.comment_body{padding:20px;position:relative;line-height:normal;border:1px solid #ddd;}
+.comment_body p{line-height:normal;padding:20px 0;position:relative;display:block;clear:both;}
+.comment_body p img{vertical-align:middle;margin:0;}
+.comment_body p img.comment_emo {vertical-align:middle;margin:0;box-shadow:none;}
+.comment_child .comment_inner{padding-left:5%}
+.comment_child .comment_body{margin:0;border-top:0}
+#comments .comment_child .comment_avatar,#comments .comment_child .comment_avatar img{width:38px;height:38px;border-radius:50%;}
+#comments a.comment_reply{background:#E09711;float:right;text-align:center;margin:0;color:#fff;font-size:80%;padding:3px 6px}
+#comments a.comment_reply:hover{background:#333;color:#fff;}
+.comment-form{width:100%;max-width:100%;padding:0;}
+.comment_form a{text-decoration:none;text-transform:uppercase;font-weight:700;font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#666}
+#comment-editor{width:103%!important;background:url(&#39;https://2.bp.blogspot.com/-dx00KFFDt_g/Vmzyq2tFlAI/AAAAAAAABkY/GYtjfTXsjVM/s000/loading.gif&#39;) no-repeat 50% 25%;position:relative;margin-left:-8px;margin-top:-15px}
+.comment-form p {position:relative;font-size:14px;}
+.comment_reply_form{padding:0}
+.comment_reply_form .comment-form{width:100%}
+.comment_emo_list .item{float:left;text-align:center;height:40px;width:41px;margin:0 0 10px;}
+.comment_emo_list span{display:block;font-weight:400;font-size:11px;letter-spacing:1px;color:#666}
+.comment_youtube{max-width:100%!important;width:400px;height:225px;display:block;margin:auto}
+.comment_img{max-width:100%!important}
+#respond{overflow:hidden;padding-left:10px;clear:both}
+.comment_body p.spammer-detected{color:#fff;background:#ff3f56;padding:12px 15px;border-radius:0;box-shadow:0 0 0 3px #ff3f56;margin:20px 0;border:2px dashed #de374b}
+.comment_body p.spammer-detected:before,.comment_body p.spammer-detected:after {display:none;}
+.deleted-comment{display:block;color:#fff;word-wrap:break-word;background:#a9b1b7;margin-top:10px;padding:10px;font-size:14px;}
+iframe{border:none;overflow:hidden}
+.paging-control-container{text-align:center;margin:0 0 0 25%;}
+.paging-control-container a{text-align:center;margin:0 auto;background:#666;padding:5px 10px;
+color:#fff;transition:all .3s ease-out}
+.paging-control-container a:hover{background:#e6ae48;color:#fff;}
+.comment_header,.comment_child .comment_header{position:relative;float:left;padding:0;display:inline-block;margin-right:10px;}
+.unneeded-paging-control,.comment-delete {display:none}
+img.comment_emo {height:1.2em;width:1.2em;padding:0 .05em 0 .1em;vertical-align:-0.1em;}
+#comment-holder .cm-youtube{display:block;border:none !important;background-color:#333;width:450px;height:240px;margin:0 auto 30px}
+#comment-holder .cm-image{display:block;margin:0 auto 15px;outline:none;border:1px solid #ccc;background-color:white;box-shadow:0 1px 3px rgba(0,0,0,.2);padding:5px;max-width:96%;height:auto;width:auto}
+#comment-holder code,#comment-holder i[rel=&quot;code&quot;]{font:normal 12px Monaco,&quot;Courier New&quot;,Monospace;}
+#comment-holder pre,#comment-holder i[rel=&quot;pre&quot;]{display:block;font:normal 12px Monaco,&quot;Courier New&quot;,Monospace;padding:0;word-wrap:normal;white-space:pre;overflow:auto;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}
+#comment-holder i[rel=&quot;image&quot;],#comment-holder i[rel=&quot;youtube&quot;]{display:block;overflow:hidden;border:2px solid black;position:relative;width:170px;height:100px;margin:0 auto 30px}
+#comment-holder i[rel=&quot;image&quot;]:before,#comment-holder i[rel=&quot;youtube&quot;]:before{content:&quot;Please enable your JavaScript to see this image!&quot;;position:absolute;top:0;right:0;bottom:0;left:0;background-color:red;color:white;font-weight:bold;text-align:center;padding:15px 0}
+#comment-holder i[rel=&quot;youtube&quot;]:before{content:&quot;Please enable your JavaScript to watch this video!&quot;}
+.comment_body p i{font-style:normal;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}
+#comments pre {padding:0;}
+@media screen and (max-width:384px){
+#comments{display:none}}
