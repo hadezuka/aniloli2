@@ -20,7 +20,7 @@ text-decoration:none;outline:none;overflow:hidden;}
 border-bottom:4px solid #275827;overflow:hidden;}
 .tabbed-toc .panel li .summary img.thumbnail {float:left;display:block;margin:0 8px 0 0;padding:4px;
 width:72px;height:72px;border:1px solid #dcdcdc;background-color:#fafafa;}
-.tabbed-toc .panel li:nth-child(even) {background-color:#806bc4}
+.tabbed-toc .panel li:nth-child(even) {background-color:#fff}
 .tabbed-toc .panel li a:hover,.tabbed-toc .panel li a:focus,.tabbed-toc .panel li a:hover time,.tabbed-toc .panel li.bold a {
 background-color:#333;color:white;outline:none;}
 .tabbed-toc .panel li.bold a:hover,
